@@ -13,8 +13,8 @@
     "build-client": "npm run build --prefix client",
     "start-server": "npm start --prefix server",
     "deploy": "npm-run-all --parallel build-client start-server",
-    "test-server": "npm run test --prefix server",
-    "test-client": "npm run test --prefix client",
+    "test-server": "npm test --prefix server",
+    "test-client": "npm test --prefix client",
     "test": "npm-run-all --parallel test-server test-client"
   },
   "author": "Serhii Dmitriiev",
