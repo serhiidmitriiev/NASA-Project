@@ -1,0 +1,7 @@
+const DEFAULT_PAGE_LIMIT = 0;
+const DEFAULT_PAGE_NUMBER = 1;
+
+module.exports = {
+  DEFAULT_PAGE_LIMIT,
+  DEFAULT_PAGE_NUMBER,
+};
