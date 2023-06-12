@@ -15,6 +15,7 @@ async function startServer() {
   await mongoConnect();
   await loadPlanetsData();
   await loadLaunchData();
+
   server.listen(PORT, () => {
     console.log(`Listenin' on port ${PORT}`);
   });
